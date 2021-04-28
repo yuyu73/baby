@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>樂活幼兒園</title>
+    <link rel="icon" href="index/icon1.PNG">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--小圖示 找圖像 >> font awesome4.7-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!---CSS-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<style>
+    .text {
+        color: wheat;
+        text-align: justify;
+    }
+
+    .title1 {
+        border-bottom: solid 1px #e3e3e3;
+        text-align: justify;
+        text-justify: distribute;
+    }
+
+    .card h1 {
+        color: wheat;
+    }
+
+    .card h4 {
+        color: rgb(0, 32, 96);
+    }
+
+    .card:hover .card-body {
+        background-image: linear-gradient(0deg, #fcffd7, #c3d9fa);
+    }
+
+    .card:hover img {
+        transform: translateY(-60px);
+    }
+
+    .card:hover h4 {
+        color: rgb(255, 255, 255);
+    }
+</style>
+
+<body background="index/背景.jpg" style="overflow-x: hidden;">
+    <!--TOP-->
+    <!--http://www.jijiong.net/2011/01/go-to-top.html-->
+    <a href="家長留言板.html"><img style='position:fixed; bottom: 20px;;right:20px; height: 220px;z-index: 1;'
+            src="index/icon3.png" alt=""></a>
+    <!--頁首-->
+    <!--navbar功能選單-->
+    <!--滑動前-->
+    <nav class="navigation" style="background-image: url('index/頁首1.png') ;height: 300px;">
+        <a href="index.html"><img src="index/icon.png" style="display:block; height: 180px; margin:auto;" alt=""></a>
+        <nav class="navbar navbar-expand-lg navbar-light text-dark">
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navigation collapse navbar-collapse" id="navbarScroll">
+                <ul style="width: 100%;">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            ⛪園所介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="關於我們.html">🙋‍♂️關於我們</a>
+                            <a class="dropdown-item" href="師資介紹.html">👩‍🏫師資介紹</a>
+                            <a class="dropdown-item" href="環境介紹.html">🏡環境介紹</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="教學理念.html">👨‍👩‍👧教學理念</a></li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            🪑課程介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="普通課程.html">📖普通課程</a>
+                            <a class="dropdown-item" href="多元課程.html">🎹多元課程</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="寶貝相簿.html">🖼寶貝相簿</a></li>
+                    <li class=" mx-2"><a href="http://yuyu73.github.io/news/">📢最新消息</a></li>
+                    <li class=" mx-2"><a href="家長留言板.html">💬家長留言板</a></li>
+                    <li class=" mx-2"><a href="線上預約.html">📞線上預約</a></li>
+                    <li class=" mx-2"><a href="我要報名.html">🔥我要報名</a></li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    <!--滑動後-->
+    <nav class="navbar" id="navbar" style="background-image: url(index/頁首2.png);height: 170px;display: none;">
+        <nav class="navbar navbar-expand-lg navbar-light text-dark">
+            <a class="navbar-brand " href="index.html"
+                style="font-weight: bold; color: rgb(0, 32, 96);font-size: xx-large;">
+                <img style="height:100px;" src="index/icon2.png">
+
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navigation collapse navbar-collapse" id="navbarScroll">
+                <ul style="width: 100%;">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            ⛪園所介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="關於我們.html">🙋‍♂️關於我們</a>
+                            <a class="dropdown-item" href="師資介紹.html">👩‍🏫師資介紹</a>
+                            <a class="dropdown-item" href="環境介紹.html">🏡環境介紹</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="教學理念.html">👨‍👩‍👧教學理念</a></li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            🪑課程介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="普通課程.html">📖普通課程</a>
+                            <a class="dropdown-item" href="多元課程.html">🎹多元課程</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="寶貝相簿.html">🖼寶貝相簿</a></li>
+                    <li class=" mx-2"><a href="http://yuyu73.github.io/news/">📢最新消息</a></li>
+                    <li class=" mx-2"><a href="家長留言板.html">💬家長留言板</a></li>
+                    <li class=" mx-2"><a href="線上預約.html">📞線上預約</a></li>
+                    <li class=" mx-2"><a href="我要報名.html">🔥我要報名</a></li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+
+    <!--內文-->
+    <div class="container">
+        <!--名稱 title-->
+        <h1 class="my-3" style="color: wheat;">Ｍessage / 家長留言板</h1>
+        <nav class="breadcrumb" style="background-color:#26547C;">
+            <a class="breadcrumb-item text-light" href="index.html">首頁</a>
+            <span class="breadcrumb-item active text-light">家長留言板</span>
+        </nav>
+
+        <div class="row mt-5">
+            <div class="col-lg-3 mb-1">
+                <div class="container bg-light card" data-aos="fade-up">
+                    <br>
+                    <h3 class="text-center">我要留言</h3>
+                    <hr>
+                    <p>即可在此留下您的意見與問題。感謝您寶貴的意見。園方保有刪除與保留權利。</p>
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="訪客姓名">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="email" id="email" class="form-control" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="phone" id="phone" class="form-control" placeholder="連絡電話">
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea class="form-control" name="msg" id="msg" rows="5" placeholder="留言"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <a type="button" class="btn btn-primary btn-lg" href="留言.html">送出</a>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="col-lg-9 mb-4">
+
+
+                <!-- tab標籤 -->
+
+                <!-- 每個tab頁對應的内容 -->
+                <div id="myTabContent" class="tab-content">
+                    <!-- P1 -->
+                    <div class="tab-pane active" id="a" data-aos="fade-up">
+                        <div class="card mb-4">
+                            <h5 class="card-header">No.1</h5>
+                            <div class="card-body">
+                                <p>陳慧珊 說：</p>
+                                <p><strong>請問我弟弟是110/5/3如果兩歲要上課，請問什麼時候要報名？</strong></p>
+                                <p style="text-align: right;"><small>2020-12-20</small></p>
+                                <hr>
+                                <p>校方回覆 : </p>
+                                <p>您好，若兩歲要上學，近期有空可以來填問班表留下資料，若有名額我們會另行通知。 <br>
+                                    請記得事先來電預約填表時間哦! <br>
+                                    學校電話 <strong>6315000</strong>，謝謝您~ <br>
+                                報名連結：<a href="我要報名.html">http://yuyu73.github.io/baby/我要報名.html</a></p>
+                                <p style="text-align: right;"><small>2020-12-24</small></p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <h5 class="card-header">No.2</h5>
+                            <div class="card-body">
+                                <p>胡怡慧 說：</p>
+                                <p><strong>請問若之後要報名入學，您建議在何時報名比較好呢？<br>
+                                    也想請問一下註冊費及月費大概是多少呢？謝謝～</strong></p>
+                                <p style="text-align: right;"><small>2020-11-22</small></p>
+                                <hr>
+                                <p>校方回覆 : </p>
+                                <p>建議家長直接聯繫園方辦公室洽詢您的相關問題，我們一定竭誠為您服務。<br>
+                                    學校電話 <strong>6315000</strong>，謝謝您~ <br>
+                                    預約連結：<a href="線上預約.html">http://yuyu73.github.io/baby/線上預約.html</a></p>
+                                <p style="text-align: right;"><small>2020-11-26</small></p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <h5 class="card-header">No.3</h5>
+                            <div class="card-body">
+                                <p>蔡佩伶 說：</p>
+                                <p><strong>校長與老師好，今年要讓小朋友踏入學園生活有想了解校園環境，不知可否預約參觀洽談相關資訊呢？</strong></p>
+                                <p style="text-align: right;"><small>2020-9-16</small></p>
+                                <hr>
+                                <p>校方回覆 : </p>
+                                <p>您好，<br>
+                                    想請問您孩子的出生日期及欲入學的年段為何呢?<br>
+                                    因目前配合防疫措施，校園內暫不開放家長參觀，<br>
+                                    若您有任何問題想了解，可留下您的電話，我們會儘快回覆，<br>
+                                    亦或撥打學校電話 <strong>6315000</strong> 詢問相關題。<br>
+                                    預約連結：<a href="線上預約.html">http://yuyu73.github.io/baby/線上預約.html</a>
+                                    謝謝您~</p>
+                                <p style="text-align: right;"><small>2020-9-24</small></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- P2 -->
+                    <div class="tab-pane" id="b">
+                        <div class="card mb-4">
+                            <h5 class="card-header">No.4</h5>
+                            <div class="card-body">
+                                <p>蔡怡靜 說：</p>
+                                <p><strong>您好，<br>
+                                    想詢問關於104年10月24日出生的小朋友明年要讀的話是要念小班還是中班呢？</strong></p>
+                                <p style="text-align: right;"><small>2020-07-12</small></p>
+                                <hr>
+                                <p>校方回覆 : </p>
+                                <p>媽咪您好，寶貝明年八月是就讀幼幼班哦!<br>
+                                    報名連結：<a href="我要報名.html">http://yuyu73.github.io/baby/我要報名.html</a></p></p>
+                                <p style="text-align: right;"><small>2020-07-30</small></p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <h5 class="card-header">No.5</h5>
+                            <div class="card-body">
+                                <p>呂佳洽 說：</p>
+                                <p><strong>我是小班的家長,<br>
+                                    上星期五的時候發現校園草皮禿一塊,<br>
+                                    昨天接小朋友下課的時候就看見園長媽咪帶人員在施工,<br>
+                                    讓我非常想贊揚園方,<br>
+                                    一直為小朋友的成長環境盡心力,<br>
+                                    感謝園方所有人員<br>
+                                    樂活的小朋友真的很幸福</strong></p>
+                                <p style="text-align: right;"><small>2020-05-22</small></p>
+                                <hr>
+                                <p>校方回覆 : </p>
+                                <p>謝謝家長的肯定喔！</p>
+                                <p style="text-align: right;"><small>2020-5-25</small></p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <h5 class="card-header">No.6</h5>
+                            <div class="card-body">
+                                <p>王靜晨 說：</p>
+                                <p><strong>您好<br>
+                                    請問107/03/01出生的孩子，如果現在要唸小班，還有名額嗎？是否開放參觀呢？<br>
+                                    如果沒有名額是否能先登記小班呢？謝謝回覆</strong></p>
+                                <p style="text-align: right;"><small>2020-04-10</small></p>
+                                <hr>
+                                <p>校方回覆 : </p>
+                                <p>您好，<br>
+                                    感謝您的詢問，
+                                    很抱歉~目前小班己滿班。<br>
+                                    若要登記中班，可來電預約時間，親自到校填問班表，但因疫情關係，目前並未開放參觀，請見諒~<br>
+                                    學校電話 <strong>6315000</strong>，謝謝您~ <br>
+                                    預約連結：<a href="線上預約.html">http://yuyu73.github.io/baby/線上預約.html</a></p>
+                                <p style="text-align: right;"><small>2020-4-18</small></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center nav" id="myTab" role="tablist">
+                        <li id="c" class="page-item disabled">
+                            <a class="page-link nav-link" href="#a" data-toggle="tab" onclick="Pagination(1)">
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                        </li>
+                        <li id="a1" class="page-item nav-item li-hover active">
+                            <a class="page-link nav-link" href="#a" data-toggle="tab" onclick="Pagination(1)">1</a>
+                        </li>
+                        <li id="b1" class="page-item nav-item li-hover">
+                            <a class="page-link nav-link" href="#b" data-toggle="tab" onclick="Pagination(2)">2</a>
+                        </li>
+                        <li id="d" class="page-item">
+                            <a class="page-link nav-link" href="#b" data-toggle="tab" onclick="Pagination(2)">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- End Pagination -->
+
+            </div>
+        </div>
+    </div>
+
+    <!--頁尾聯絡資訊-->
+    <div class="container-fluid  d-none d-xl-block">
+        <div class="row" style="background-image: url(index/頁尾.png);">
+            <!--padding 留白 https://www.1keydata.com/css-tutorial/tw/padding.php-->
+            <div class="col-lg-5 mb-4 my-5 " style="padding: 50px; padding-top: 80px">
+                <div>
+                    <img class="img-fluid rounded img-hover" style="height: 200px;float:left;" src="index/icon.png"
+                        alt="">
+                    <h2 class="mb-4 ml-5 mt-5" style="color: rgb(255, 255, 255);"><strong>樂 活 幼 兒 園</strong></h2>
+                </div>
+                <h5 class="mb-4 ml-5">讓您家小寶貝快樂學習是我們的責任！</h5>
+                <p class=" ml-5">地址：632301 雲林縣虎尾鎮文化路64號 No.64</p>
+                <p class=" ml-5">電話：886-5-6315000</p>
+                <p class=" ml-5">E-Mail：babyhome@nfu.edu.tw</p>
+            </div>
+            <div class="col-lg-2 mb-4 my-5  text-center" style="padding-top: 40px">
+                <h2 class="mb-4" style="color: rgb(141, 92, 43);"><strong>關於樂活</strong></h2>
+                <a class="dropdown-item mb-3 a-hover" href="關於我們.html">
+                    <h4>關於我們</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="師資介紹.html">
+                    <h4>師資介紹</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="環境介紹.html">
+                    <h4>環境介紹</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="教學理念.html">
+                    <h4>教學理念</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 mb-4 my-5 text-center" style="padding-top: 40px">
+                <h2 class="mb-4" style="color: rgb(141, 92, 43);"><strong>關於寶貝</strong></h2>
+                <a class="dropdown-item mb-3 a-hover" href="普通課程.html">
+                    <h4>普通課程</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="多元課程.html">
+                    <h4>多元課程</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="寶貝相簿.html">
+                    <h4>寶貝相簿</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 mb-4 my-5 text-center" style="padding-top: 40px">
+                <h2 class="mb-4" style="color: rgb(141, 92, 43);"><strong>關於家長</strong></h2>
+                <a class="dropdown-item mb-3 a-hover" href="http://yuyu73.github.io/news/">
+                    <h4>最新消息</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="家長留言板.html">
+                    <h4>家長留言板</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="線上預約.html">
+                    <h4>線上預約</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="我要報名.html">
+                    <h4>我要報名</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--頁尾版權-->
+    <footer class="bg-dark py-4">
+        <p class="text-center text-white">雲林公立樂活幼兒園 版權所有 &copy; Copyright 2011.All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- AOS JS 前4行-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--網路搜尋holder.js  點擊cdnjs: https://cdnjs.com/libraries/holder  複製橘色框的網站: https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--滑動螢幕-->
+    <script>
+        window.onscroll = function () { myFunction() };
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset >= 300) {
+                navbar.classList.add("sticky");
+                navbar.style.display = "inline";
+            }
+            else {
+                window.
+                    navbar.classList.remove("sticky");
+                navbar.style.display = "none";
+            }
+        }
+        function Pagination(check) {
+            document.body.scrollTop = 200; // 用於 Safari
+            document.documentElement.scrollTop = 200; // 用於 Chrome, Firefox, IE 或 Opera
+            if (check == "1") {
+                document.getElementById("a1").classList.add("active")
+                document.getElementById("b1").classList.remove("active")
+                document.getElementById("c").classList.add("disabled")
+                document.getElementById("d").classList.remove("disabled")
+            }
+            else {
+                document.getElementById("a1").classList.remove("active")
+                document.getElementById("b1").classList.add("active")
+                document.getElementById("c").classList.remove("disabled")
+                document.getElementById("d").classList.add("disabled")
+            }
+        }
+
+    </script>
+</body>
+
+</html>

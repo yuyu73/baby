@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>樂活幼兒園</title>
+    <link rel="icon" href="index/icon1.PNG">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--小圖示 找圖像 >> font awesome4.7-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!---CSS-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<style>
+    .row{
+            padding: 50px; 
+        }
+        .card:hover{
+            transform: translateY(-20px);
+        }
+        .card:hover .card-body{
+          background-image: linear-gradient(0deg,#F9E784,#FFC2B4);
+        }
+        .card:hover h5{
+          color:#fff;
+          border-bottom-color:#fff ;
+        }
+        .card:hover p{
+          color:#fff;
+          border-bottom-color:#fff ;
+        }
+        .main-footer{
+          padding: 150px 0 0;
+          background-color: #26547C;
+      }
+      .main-footer .container{
+          display: flex;
+          width: 1200px;
+          margin: auto;
+      }
+      .footer-item h4{
+        color:#fff;
+        text-decoration: none;
+        border-bottom:2px solid white;
+      }
+      .footer-item nav a{
+          color:#fff;
+          line-height: 1.4;
+          text-decoration: none;
+          padding: 5px 0;
+      }
+      .footer-item{
+          margin: 0 20px;
+      }
+      .conpyright{
+          text-align: center;
+          margin: 150px 0 0;
+          padding: 10px 0;
+          background-color: #FB8F67;
+          color: white;
+
+      }
+</style>
+
+<body background="index/背景.jpg" style="overflow-x: hidden;">
+    <!--TOP-->
+    <!--http://www.jijiong.net/2011/01/go-to-top.html-->
+    <a href="師資介紹.html"><img style='position:fixed; bottom: 20px;;right:20px; height: 220px;z-index: 1;' src="index/icon3.png" alt=""></a>
+    <!--頁首-->
+    <!--navbar功能選單-->
+    <!--滑動前-->
+    <nav class="navigation" style="background-image: url('index/頁首1.png') ;height: 300px;">
+        <a href="index.html"><img src="index/icon.png" style="display:block; height: 180px; margin:auto;" alt=""></a>
+        <nav class="navbar navbar-expand-lg navbar-light text-dark">
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navigation collapse navbar-collapse" id="navbarScroll">
+                <ul style="width: 100%;">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            ⛪園所介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="關於我們.html">🙋‍♂️關於我們</a>
+                            <a class="dropdown-item" href="師資介紹.html">👩‍🏫師資介紹</a>
+                            <a class="dropdown-item" href="環境介紹.html">🏡環境介紹</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="教學理念.html">👨‍👩‍👧教學理念</a></li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            🪑課程介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="普通課程.html">📖普通課程</a>
+                            <a class="dropdown-item" href="多元課程.html">🎹多元課程</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="寶貝相簿.html">🖼寶貝相簿</a></li>
+                    <li class=" mx-2"><a href="http://yuyu73.github.io/news/">📢最新消息</a></li>
+                    <li class=" mx-2"><a href="家長留言板.html">💬家長留言板</a></li>
+                    <li class=" mx-2"><a href="線上預約.html">📞線上預約</a></li>
+                    <li class=" mx-2"><a href="我要報名.html">🔥我要報名</a></li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    <!--滑動後-->
+    <nav class="navbar" id="navbar" style="background-image: url(index/頁首2.png);height: 170px;display: none;">
+        <nav class="navbar navbar-expand-lg navbar-light text-dark">
+            <a class="navbar-brand " href="index.html"style="font-weight: bold; color: rgb(0, 32, 96);font-size: xx-large;">
+                        <img style="height:100px;" src="index/icon2.png">
+                        
+                    </a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="navigation collapse navbar-collapse" id="navbarScroll">
+                <ul style="width: 100%;">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            ⛪園所介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="關於我們.html">🙋‍♂️關於我們</a>
+                            <a class="dropdown-item" href="師資介紹.html">👩‍🏫師資介紹</a>
+                            <a class="dropdown-item" href="環境介紹.html">🏡環境介紹</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="教學理念.html">👨‍👩‍👧教學理念</a></li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            🪑課程介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="普通課程.html">📖普通課程</a>
+                            <a class="dropdown-item" href="多元課程.html">🎹多元課程</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="寶貝相簿.html">🖼寶貝相簿</a></li>
+                    <li class=" mx-2"><a href="latestnew1.html">📢最新消息</a></li>
+                    <li class=" mx-2"><a href="家長留言板.html">💬家長留言板</a></li>
+                    <li class=" mx-2"><a href="線上預約.html">📞線上預約</a></li>
+                    <li class=" mx-2"><a href="我要報名.html">🔥我要報名</a></li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+
+    <!--內文-->
+    <div class="container">
+        <h1 class="my-3" style="color: wheat;">Teachers / 師資介紹</h1>
+        <nav class="breadcrumb" style="background-color:#26547C;">
+            <a class="breadcrumb-item text-light" href="index.html">首頁</a>
+            <span class="breadcrumb-item active text-light">園所介紹</span>
+            <span class="breadcrumb-item active text-light">師資介紹</span>
+        </nav>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="a2/0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        
+                        <h5 class="card-title">樂活幼兒園 董事長</h5>
+                        <p class="card-text">邱靜宜(園長媽咪)</p>
+                        
+                        <button class="btn btn-outline-secondary"class="align-center"data-toggle="collapse" data-target="#collapse1"> 
+                            查看更多
+                        </button>
+                        <div id="collapse1" class="collapse">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">學歷：美國伊利諾州大學（UIC） 語文暨幼兒發展學分班畢</li>
+                                <li class="list-group-item">獲獎：台南市幼兒教育發展協會幼兒教育推展熱誠奉獻獎</li>
+                                <li class="list-group-item">專業：兒童心理研究、親職教育諮詢</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="a2/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">樂活幼兒園 園長</h5>
+                        <p class="card-text">柳丁哥哥</p>
+                        <button class="btn btn-outline-secondary"data-toggle="collapse" data-target="#collapse2"> 
+                            查看更多
+                        </button>
+                        <div id="collapse2" class="collapse">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">學歷：台北市立師範學院幼兒教育學系</li>
+                                <li class="list-group-item">獲獎：95年台南市幼兒教育發展協會幼鐸獎</li>
+                                <li class="list-group-item">專業：幼兒藝術繪畫、傑立卡數學合格教師</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="a2/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">樂活幼兒園 老師</h5>
+                        <p class="card-text">百香果姐姐(小班導師)</p>
+                        <button class="btn btn-outline-secondary"data-toggle="collapse" data-target="#collapse3"> 
+                            查看更多
+                        </button>
+                        <div id="collapse3" class="collapse">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">學歷：國立台中師範學院幼教系</li>
+                                <li class="list-group-item">證照：具幼稚園教師合格證</li>
+                                <li class="list-group-item">負責班級：貓貓班</li>
+                                <li class="list-group-item">班級人數：20人</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="a2/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">樂活幼兒園 老師</h5>
+                        <p class="card-text">橘子姐姐(小班導師)</p>
+                        <button class="btn btn-outline-secondary"data-toggle="collapse" data-target="#collapse4"> 
+                            查看更多
+                        </button>
+                        <div id="collapse4" class="collapse">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">學歷：新竹師範學院幼教系畢業</li>
+                                <li class="list-group-item">證照：具合格保母證</li>
+                                <li class="list-group-item">負責班級：兔兔班</li>
+                                <li class="list-group-item">班級人數：25人</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="a2/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">樂活幼兒園 老師</h5>
+                        <p class="card-text">星星哥哥(中班導師)</p>
+                        <button class="btn btn-outline-secondary"data-toggle="collapse" data-target="#collapse5"> 
+                            查看更多
+                        </button>
+                        <div id="collapse5" class="collapse">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">學歷：長庚科技大學幼兒保育系畢</li>
+                                <li class="list-group-item">證照：合格教保老師</li>
+                                <li class="list-group-item">負責班級：無尾熊班</li>
+                                <li class="list-group-item">班級人數：25人</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="a2/5.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">樂活幼兒園 老師</h5>
+                        <p class="card-text">蘋果姐姐(中班導師)</p>
+                        <button class="btn btn-outline-secondary"data-toggle="collapse" data-target="#collapse6"> 
+                            查看更多
+                        </button>
+                        <div id="collapse6" class="collapse">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">學歷：弘光科技大學幼兒保育系畢</li>
+                                <li class="list-group-item">證照：合格教保老師</li>
+                                <li class="list-group-item">負責班級：羊咩咩班</li>
+                                <li class="list-group-item">班級人數：26人</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="a2/6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">樂活幼兒園 老師</h5>
+                        <p class="card-text">草莓姐姐(大班導師)</p>
+                        <button class="btn btn-outline-secondary"data-toggle="collapse" data-target="#collapse7"> 
+                            查看更多
+                        </button>
+                        <div id="collapse7" class="collapse">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">學歷：長庚科技大學幼兒保育系畢</li>
+                                <li class="list-group-item">證照：合格教保老師</li>
+                                <li class="list-group-item">負責班級：大熊班</li>
+                                <li class="list-group-item">班級人數：31人</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="a2/7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">樂活幼兒園 老師</h5>
+                        <p class="card-text">香蕉哥哥(大班導師)</p>
+                        <button class="btn btn-outline-secondary"data-toggle="collapse" data-target="#collapse8"> 
+                            查看更多
+                        </button>
+                        <div id="collapse8" class="collapse">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">學歷：弘光科技大學幼兒保育系畢</li>
+                                <li class="list-group-item">證照：合格教保老師</li>
+                                <li class="list-group-item">負責班級：大象班</li>
+                                <li class="list-group-item">班級人數：36人</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--頁尾聯絡資訊-->
+    <div class="container-fluid  d-none d-xl-block">
+        <div class="row" style="background-image: url(index/頁尾.png);">
+            <!--padding 留白 https://www.1keydata.com/css-tutorial/tw/padding.php-->
+            <div class="col-lg-5 mb-4 my-5 ">
+                <div>
+                    <img class="img-fluid rounded img-hover" style="height: 200px;float:left;" src="index/icon.png"
+                        alt="">
+                    <h2 class="mb-4 ml-5 mt-5" style="color: rgb(255, 255, 255);"><strong>樂 活 幼 兒 園</strong></h2>
+                </div>
+                <h5 class="mb-4 ml-5">讓您家小寶貝快樂學習是我們的責任！</h5>
+                <p class=" ml-5">地址：632301 雲林縣虎尾鎮文化路64號 No.64</p>
+                <p class=" ml-5">電話：886-5-6315000</p>
+                <p class=" ml-5">E-Mail：babyhome@nfu.edu.tw</p>
+            </div>
+            <div class="col-lg-2 mb-4 my-5  text-center" style="padding-top: 20px">
+                <h2 class="mb-4" style="color: rgb(141, 92, 43);"><strong>關於樂活</strong></h2>
+                <a class="dropdown-item mb-3 a-hover" href="關於我們.html">
+                    <h4>關於我們</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="師資介紹.html">
+                    <h4>師資介紹</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="環境介紹.html">
+                    <h4>環境介紹</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="教學理念.html">
+                    <h4>教學理念</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 mb-4 my-5 text-center" style="padding-top: 20px">
+                <h2 class="mb-4" style="color: rgb(141, 92, 43);"><strong>關於寶貝</strong></h2>
+                <a class="dropdown-item mb-3 a-hover" href="普通課程.html">
+                    <h4>普通課程</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="多元課程.html">
+                    <h4>多元課程</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="寶貝相簿.html">
+                    <h4>寶貝相簿</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 mb-4 my-5 text-center" style="padding-top: 20px">
+                <h2 class="mb-4" style="color: rgb(141, 92, 43);"><strong>關於家長</strong></h2>
+                <a class="dropdown-item mb-3 a-hover" href="latestnew1.html">
+                    <h4>最新消息</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="家長留言板.html">
+                    <h4>家長留言板</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="線上預約.html">
+                    <h4>線上預約</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="我要報名.html">
+                    <h4>我要報名</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--頁尾版權-->
+    <footer class="bg-dark py-4">
+        <p class="text-center text-white">雲林公立樂活幼兒園 版權所有 &copy; Copyright 2011.All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- AOS JS 前4行-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--網路搜尋holder.js  點擊cdnjs: https://cdnjs.com/libraries/holder  複製橘色框的網站: https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--滑動螢幕-->
+    <script>
+        window.onscroll = function () { myFunction() };
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset >= 300)
+             {
+                navbar.classList.add("sticky");
+                navbar.style.display = "inline";
+            }
+             else {window.
+                navbar.classList.remove("sticky");
+                navbar.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>樂活幼兒園</title>
+    <link rel="icon" href="index/icon1.PNG">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!---CSS-->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<style>
+    /*card-index 連結(上面四個)*/
+    .card h1 {
+        color: wheat;
+    }
+
+    .card h2 {
+        color: rgb(110, 5, 180);
+    }
+
+    .card:hover .card-body {
+        background-image: linear-gradient(0deg, #f6e9ff, #d2e7ff);
+    }
+
+    .card:hover h2 {
+        color: rgb(255, 255, 255);
+        background-color: rgb(141, 84, 179);
+    }
+
+
+    /*tab標籤 連結(五個)*/
+    .li-hover a {
+        color: rgb(73, 105, 165);
+        background-color: rgb(250, 244, 167);
+        font-size: xx-large;
+    }
+
+    .li-hover:hover a {
+        color: rgb(0, 32, 96);
+        background-color: rgba(250, 244, 167, 0.60);
+        font-size: xx-large;
+    }
+</style>
+
+<body background="index/背景.jpg" style="overflow-x: hidden;">
+    <!--TOP-->
+    <!--http://www.jijiong.net/2011/01/go-to-top.html-->
+    <a href="多元課程.html"><img style='position:fixed; bottom: 20px;;right:20px; height: 220px;z-index: 1;' src="index/icon3.png" alt=""></a>
+    <!--頁首-->
+    <!--navbar功能選單-->
+    <!--滑動前-->
+    <nav class="navigation" style="background-image: url('index/頁首1.png') ;height: 300px;">
+        <a href="index.html"><img src="index/icon.png" style="display:block; height: 180px; margin:auto;" alt=""></a>
+        <nav class="navbar navbar-expand-lg navbar-light text-dark">
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navigation collapse navbar-collapse" id="navbarScroll">
+                <ul style="width: 100%;">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            ⛪園所介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="關於我們.html">🙋‍♂️關於我們</a>
+                            <a class="dropdown-item" href="師資介紹.html">👩‍🏫師資介紹</a>
+                            <a class="dropdown-item" href="環境介紹.html">🏡環境介紹</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="教學理念.html">👨‍👩‍👧教學理念</a></li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            🪑課程介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="普通課程.html">📖普通課程</a>
+                            <a class="dropdown-item" href="多元課程.html">🎹多元課程</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="寶貝相簿.html">🖼寶貝相簿</a></li>
+                    <li class=" mx-2"><a href="http://yuyu73.github.io/news/">📢最新消息</a></li>
+                    <li class=" mx-2"><a href="家長留言板.html">💬家長留言板</a></li>
+                    <li class=" mx-2"><a href="線上預約.html">📞線上預約</a></li>
+                    <li class=" mx-2"><a href="我要報名.html">🔥我要報名</a></li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    <!--滑動後-->
+    <nav class="navbar" id="navbar" style="background-image: url(index/頁首2.png);height: 170px;display: none;">
+        <nav class="navbar navbar-expand-lg navbar-light text-dark">
+            <a class="navbar-brand " href="index.html"style="font-weight: bold; color: rgb(0, 32, 96);font-size: xx-large;">
+                        <img style="height:100px;" src="index/icon2.png">
+                        
+                    </a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="navigation collapse navbar-collapse" id="navbarScroll">
+                <ul style="width: 100%;">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            ⛪園所介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="關於我們.html">🙋‍♂️關於我們</a>
+                            <a class="dropdown-item" href="師資介紹.html">👩‍🏫師資介紹</a>
+                            <a class="dropdown-item" href="環境介紹.html">🏡環境介紹</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="教學理念.html">👨‍👩‍👧教學理念</a></li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            🪑課程介紹
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="普通課程.html">📖普通課程</a>
+                            <a class="dropdown-item" href="多元課程.html">🎹多元課程</a>
+                        </div>
+                    </li>
+                    <li class=" mx-2"><a href="寶貝相簿.html">🖼寶貝相簿</a></li>
+                    <li class=" mx-2"><a href="latestnew1.html">📢最新消息</a></li>
+                    <li class=" mx-2"><a href="家長留言板.html">💬家長留言板</a></li>
+                    <li class=" mx-2"><a href="線上預約.html">📞線上預約</a></li>
+                    <li class=" mx-2"><a href="我要報名.html">🔥我要報名</a></li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+
+
+    <!--內文-->
+    <div class="container">
+        <h1 class="my-3" style="color: wheat;">Multiple courses / 多元課程</h1>
+        <nav class="breadcrumb" style="background-color:#26547C;">
+            <a class="breadcrumb-item text-light" href="index.html">首頁</a>
+            <span class="breadcrumb-item active text-light">多元課程</span>
+        </nav>
+        <!--右邊-->
+        <div class="col-lg-12 mt-5">
+
+            <!--參考網站：https://blog.csdn.net/WuLex/article/details/81712876-->
+            <!--http://www.w3big.com/zh-TW/bootstrap/bootstrap-tab-plugin.html-->
+
+            <!-- tab標籤 -->
+            <ul id="myTab" class="nav nav-tabs" role="tablist">
+                <li class="nav-item li-hover mr-3 active" role="presentation">
+                    <a class="nav-link active" href="#large" data-toggle="tab">
+                        舞蹈班
+                    </a>
+                </li>
+                <li class="li-hover mr-3">
+                    <a class="nav-link " href="#medium" data-toggle="tab">
+                        音樂班
+                    </a>
+                </li>
+                <li class="li-hover mr-3">
+                    <a class="nav-link " href="#small" data-toggle="tab">
+                        美術班
+                    </a>
+                </li>
+
+
+            </ul>
+
+            <!-- 每個tab頁對應的内容 -->
+            <div id="myTabContent" class="tab-content" data-aos="fade-up" data-aos-offset="400"
+                data-aos-duration="1000">
+                <!-- 最新消息 -->
+                <div class="tab-pane active ml-5 mt-5" style="max-width: 1000px;" id="large">
+                    <!--手風琴效果-->
+                    <div class="row">
+                        <div class="card mb-4">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="ani/7.PNG" style="width: 100%;" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">流行舞蹈班</h2>
+                                        <p class="card-text mt-5" style="color: rgb(109, 109, 109);"> 親愛的流行舞蹈班家長您好:</p>
+                                        <p><br><strong>因應現代潮流，我們開設流行舞蹈班，從小培養孩子們的律動感，</strong></p>
+                                        <p><br><strong>讓孩子們可以有機會在未來的舞台上揮灑汗水、發光發熱，並且有專業老師指導。</strong></p>
+                                        <p class="card-text mt-5"><small class="text-muted">流行舞蹈班老師 蘋果姐姐留</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="ani/7.jpg" style="width: 100%;" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">熱血舞蹈班</h2>
+                                        <p class="card-text mt-5" style="color: rgb(109, 109, 109);">親愛的熱血舞蹈班家長您好:</p>
+                                        <p><br><strong>因應現代潮流，我們開設熱血舞蹈班，從小培養孩子們的律動感，</strong></p>
+                                        <p><br><strong>大致上分為Locking、Popping、Breaking三種主要風格，也各有不同的專業老師指導。</strong></p>
+                                        <p class="card-text mt-5"><small class="text-muted">熱血舞蹈班負責人 星星哥哥留</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 地理位置 -->
+                <div class="tab-pane fade ml-5 mt-5" style="max-width: 1000px;" id="medium">
+                    <div class="row">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="ani/8.PNG" style="width: 100%;" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">小提琴班</h2>
+                                        <p class="card-text mt-5" style="color: rgb(109, 109, 109);">親愛的小提琴班家長您好:</p>
+                                        <p><br><strong>幼兒園的孩子們對於音樂的感覺十分的敏銳，因此在這段時間開始學習能有最大效益，</strong></p>
+                                        <p><br><strong>我們小提琴班為顧及教學品質，一位老師最多同時教學三名學生，十分的用心。</strong></p>
+                                        <p class="card-text mt-5"><small class="text-muted">小提琴班負責人 百香果姐姐留</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="ani/9.PNG" style="width: 100%;" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">鋼琴班</h2>
+                                        <p class="card-text mt-5" style="color: rgb(109, 109, 109);">親愛的鋼琴班家長您好:</p>
+                                        <p><br><strong>幼兒園時期的孩子們對於音樂的感覺十分的敏銳，因此在這段時間開始學習能有最大效益，</strong></p>
+                                        <p><br><strong>我們鋼琴班為顧及教學品質，對於教室環境設備重本投資，名額有限。</strong></p>
+                                        <p class="card-text mt-5"><small class="text-muted">鋼琴班負責人 橘子姐姐留</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade ml-5 mt-5" style="max-width: 1000px;" id="small">
+                    <div class="row">
+                        <div class="card mb-5">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="ani/10.PNG" style="width: 100%;" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h2 class="card-title">彩繪班</h2>
+                                        <p class="card-text mt-5" style="color: rgb(109, 109, 109);">親愛的彩繪班家長您好:</p>
+                                        <p><br><strong>有人說孩子們的想像力就是從繪畫開始，繪畫可以天馬行空、無拘無束，</strong></p>
+                                        <p><br><strong>讓孩子們好好地展現自己，因此我們開了彩繪班，是由園長親自帶班授課唷！</strong></p>
+                                        <p class="card-text mt-5"><small class="text-muted">彩繪班負責人 柳丁哥哥留</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--END-->
+
+    <!--頁尾聯絡資訊-->
+    <div class="container-fluid  d-none d-xl-block">
+        <div class="row" style="background-image: url(index/頁尾.png);">
+            <!--padding 留白 https://www.1keydata.com/css-tutorial/tw/padding.php-->
+            <div class="col-lg-5 mb-4 my-5 " style="padding: 50px; padding-top: 80px">
+                <div>
+                    <img class="img-fluid rounded img-hover" style="height: 200px;float:left;" src="index/icon.png"
+                        alt="">
+                    <h2 class="mb-4 ml-5 mt-5" style="color: rgb(255, 255, 255);"><strong>樂 活 幼 兒 園</strong></h2>
+                </div>
+                <h5 class="mb-4 ml-5">讓您家小寶貝快樂學習是我們的責任！</h5>
+                <p class=" ml-5">地址：632301 雲林縣虎尾鎮文化路64號 No.64</p>
+                <p class=" ml-5">電話：886-5-6315000</p>
+                <p class=" ml-5">E-Mail：babyhome@nfu.edu.tw</p>
+            </div>
+            <div class="col-lg-2 mb-4 my-5  text-center" style="padding-top: 40px">
+                <h2 class="mb-4" style="color: rgb(141, 92, 43);"><strong>關於樂活</strong></h2>
+                <a class="dropdown-item mb-3 a-hover" href="關於我們.html">
+                    <h4>關於我們</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="師資介紹.html">
+                    <h4>師資介紹</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="環境介紹.html">
+                    <h4>環境介紹</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="教學理念.html">
+                    <h4>教學理念</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 mb-4 my-5 text-center" style="padding-top: 40px">
+                <h2 class="mb-4" style="color: rgb(141, 92, 43);"><strong>關於寶貝</strong></h2>
+                <a class="dropdown-item mb-3 a-hover" href="普通課程.html">
+                    <h4>普通課程</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="多元課程.html">
+                    <h4>多元課程</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="寶貝相簿.html">
+                    <h4>寶貝相簿</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 mb-4 my-5 text-center" style="padding-top: 40px">
+                <h2 class="mb-4" style="color: rgb(141, 92, 43);"><strong>關於家長</strong></h2>
+                <a class="dropdown-item mb-3 a-hover" href="latestnew1.html">
+                    <h4>最新消息</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="家長留言板.html">
+                    <h4>家長留言板</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="線上預約.html">
+                    <h4>線上預約</h4>
+                </a>
+                <a class="dropdown-item mb-3 a-hover" href="我要報名.html">
+                    <h4>我要報名</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--頁尾版權-->
+    <footer class="bg-dark py-4">
+        <p class="text-center text-white">雲林公立樂活幼兒園 版權所有 &copy; Copyright 2011.All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- AOS JS 前4行-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--網路搜尋holder.js  點擊cdnjs: https://cdnjs.com/libraries/holder  複製橘色框的網站: https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js">
+    </script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js">
+    </script>
+    <script type="text/javascript">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!--滑動螢幕-->
+    <script>
+        window.onscroll = function () { myFunction() };
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset >= 300) {
+                navbar.classList.add("sticky");
+                navbar.style.display = "inline";
+            }
+            else {
+                window.
+                    navbar.classList.remove("sticky");
+                navbar.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
